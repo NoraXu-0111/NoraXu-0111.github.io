@@ -341,9 +341,6 @@ const showProjects = (project, i) => {
     project.style.opacity = "1";
   }, i * 200);
 };
-
-
-
 // End of Projects
 
 

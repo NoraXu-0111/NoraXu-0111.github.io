@@ -194,7 +194,7 @@ html {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/bg.jpg) center no-repeat;
+    url(images/pic.jpeg) center no-repeat;
   background-size: cover;
 }
 /* End of Page BG */
@@ -588,29 +588,6 @@ html {
   }
 }
 /* End of Big Project Image */
-
-/* Project Hide Button */
-.project-hide-btn {
-  position: fixed;
-  top: 5rem;
-  right: 5rem;
-  background-color: transparent;
-  border: none;
-  color: #fff;
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
-  cursor: pointer;
-  z-index: 200;
-  transform: scale(0);
-  visibility: hidden;
-}
-
-.change.project-hide-btn {
-  transform: scale(1);
-  visibility: visible;
-  transition: transform 0.5s;
-}
-/* End of Project Hide Button */
 /* End of Projects */
 
 /* Projects Button */
@@ -776,19 +753,6 @@ html {
     font-size: 11rem;
   }
 
-  .section-4 {
-    margin-bottom: 10rem;
-  }
-
-  .service-btn span {
-    font-size: 9rem;
-  }
-
-  .service-text {
-    font-size: 4rem;
-  }
-}
-
 @media (max-width: 1350px) {
   .main-btn {
     width: 12.5rem;
@@ -845,18 +809,7 @@ html {
     right: 2rem;
   }
 
-  .service-btn {
-    height: 12rem;
-  }
-
-  .service-btn span {
-    font-size: 8rem;
-  }
-
-  .service-text {
-    font-size: 3.5rem;
-  }
-
+  
   .slideshow {
     margin: 5rem 0;
   }
@@ -889,16 +842,8 @@ html {
     color: #ccc;
   }
 
-  .service-btn {
+  .bg-btn {
     height: 9rem;
-  }
-
-  .service-btn span {
-    font-size: 6rem;
-  }
-
-  .service-text {
-    font-size: 3.2rem;
   }
 }
 
@@ -920,15 +865,6 @@ html {
   .main-circle img {
     width: 180%;
     height: 180%;
-  }
-
-  .service-btn span {
-    font-size: 4.5rem;
-  }
-
-  .service-text {
-    font-size: 3rem;
-    color: #bbb;
   }
 
   .contact-form-input {
@@ -977,5 +913,6 @@ html {
   .form-heading {
     font-size: 5rem;
   }
+}
 }
 /* End of Responsive */
