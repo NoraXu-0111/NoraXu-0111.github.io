@@ -591,10 +591,6 @@ html {
 /* End of Projects */
 
 /* Projects Button */
-.projects-btn {
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .projects-btn .main-btn-line {
   transition: all 0.5s;
