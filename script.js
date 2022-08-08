@@ -1,17 +1,17 @@
+
 // Mouse Circle
-const mouseCircle = document.querySelector(".mouse-circle");
-const mouseDot = document.querySelector(".mouse-dot");
+//const mouseCircle = document.querySelector(".mouse-circle");
+//const mouseDot = document.querySelector(".mouse-dot");
 
-let mouseCircleBool = true;
+// let mouseCircleBool = true;
 
-const mouseCircleFn = (x, y) => {
-  mouseCircleBool &&
-    (mouseCircle.style.cssText = `top: ${y}px; left: ${x}px; opacity: 1`);
+// const mouseCircleFn = (x, y) => {
+//   mouseCircleBool &&
+//     (mouseCircle.style.cssText = `top: ${y}px; left: ${x}px; opacity: 1`);
 
-  mouseDot.style.cssText = `top: ${y}px; left: ${x}px; opacity: 1`;
-};
+//   mouseDot.style.cssText = `top: ${y}px; left: ${x}px; opacity: 1`;
+// };
 // End of Mouse Circle
-
 // Animated Circles
 const circles = document.querySelectorAll(".circle");
 const mainImg = document.querySelector(".main-circle img");
@@ -256,7 +256,7 @@ menuIcon.addEventListener("click", () => {
 // About Me Text
 const aboutMeText = document.querySelector(".about-me-text");
 const aboutMeTextContent =
-  "I am a computer science student at Johns Hopkins University & I am on my way to become full stack developer & Please talk to me more :)";
+  "I am a computer science student at Johns Hopkins University & I am looking for 2023 Summer Software Development Intern & Please talk to me more :)";
 
 Array.from(aboutMeTextContent).forEach((char) => {
   const span = document.createElement("span");
